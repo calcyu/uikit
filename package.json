@@ -22,7 +22,8 @@
         "release": "node build/release",
         "watch": "watch-run -i -p \"**/*.less\" -- node build/less",
         "eslint": "eslint src/js",
-        "eslint-fix": "eslint --fix src/js"
+        "eslint-fix": "eslint --fix src/js",
+        "custome-icon": "node build/custom_icon/gen && node build/build"
     },
     "repository": {
         "type": "git",
